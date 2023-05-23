@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color:#081340;
+    padding: 10px;
+}
+
+
+header ul li {
+    text-decoration: none;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    text-align: center;
+}
+
+
+h1{
+    margin: 10px;
+    color: #081340;
+}
+
+h2 {
+    color: #081340;
+}
+
+ img.fotos{
+    width: 100%;
+ }
