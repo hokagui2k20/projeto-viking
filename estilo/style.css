@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     padding: 0px;
     margin: 0px;
@@ -36,3 +38,30 @@ h2 {
  img.fotos{
     width: 100%;
  }
+
+ section{
+    padding-top: 1vh;
+    line-height: 2em;
+    font-size: 3vw;
+}
+
+section.deuses{
+    background-color: rgb(59, 55, 55);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.deuses {
+    width: 100%;
+    display: inline-block;
+    padding: 120px;
+    background-color: rgba(0, 0, 0, 0.404);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#imgdeuses{
+    background-image: url(../img/deuses.jpg);
+    background-position: center;
+}
