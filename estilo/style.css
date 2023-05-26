@@ -1,51 +1,49 @@
 @charset "UTF-8";
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
     padding: 0px;
     margin: 0px;
 }
 
-header{
-    background-color:#081340;
+header {
+    background-color: #081340;
     padding: 10px;
 }
 
-
 header ul li {
     text-decoration: none;
-    
+
 }
 
-header a{
+header a {
     text-decoration: none;
     color: white;
 }
 
-body{
+body {
     text-align: center;
 }
 
-
-h1{
+h1 {
+    font-family: 'Cinzel', serif;
     margin: 10px;
     color: #081340;
 }
 
 h2 {
+    font-family: 'Cinzel', serif;
     color: #081340;
 }
 
- img.fotos{
-    width: 100%;
- }
-
- section{
+section {
     padding-top: 1vh;
     line-height: 2em;
     font-size: 3vw;
 }
 
-section.deuses{
+section.deuses {
     background-color: rgb(59, 55, 55);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
@@ -61,7 +59,13 @@ section.deuses {
     text-shadow: 1px 1px 0px black;
 }
 
-section#imgdeuses{
+section#imgdeuses {
     background-image: url(../img/deuses.jpg);
     background-position: center;
+}
+
+img.imgs {
+    width: 100%;
+    margin: 10px;
+    box-shadow: 3px 3px 3px black;
 }
