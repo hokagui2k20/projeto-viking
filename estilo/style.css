@@ -7,19 +7,30 @@
     margin: 0px;
 }
 
-header {
+menu {
     background-color: #081340;
     padding: 10px;
+    display: none;
 }
 
-header ul li {
+menu ul li {
     text-decoration: none;
+    padding: 5px;
 
 }
 
-header a {
+menu a {
     text-decoration: none;
     color: white;
+}
+
+span#menu{
+    background-color: #081340;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 
 body {
