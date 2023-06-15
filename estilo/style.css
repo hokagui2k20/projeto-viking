@@ -13,15 +13,25 @@ menu {
     display: none;
 }
 
+:hover#menu {
+    background-color: white;
+    color: #081340;
+}
+
 menu ul li {
     text-decoration: none;
     padding: 5px;
 
 }
 
+:hover.itens {
+    background-color: white;
+}
+
 menu a {
     text-decoration: none;
     color: white;
+    width: 100%;
 }
 
 span#menu{
